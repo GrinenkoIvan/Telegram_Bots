@@ -79,7 +79,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
 
 if __name__ == '__main__':
     # Замените 'YOUR_TELEGRAM_BOT_TOKEN' на ваш токен бота
-    application = ApplicationBuilder().token('7369277499:AAFT-sbPbCWJh15kCjvFwTMycuVamKGcFic').build()
+    application = ApplicationBuilder().token('.......').build()
 
     # --- Добавление обработчиков ---
     application.add_handler(CommandHandler('start', start))
